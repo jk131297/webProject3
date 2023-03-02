@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+}
+body{
+    background-image:linear-gradient(rgb(0, 0, 0, -0.5), rgb(0, 0, -0.5)),url(../assets/back-ground-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 6;
+}
+
+.container{
+    padding: 40px 0px 0px 35px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    /* justify-content: space-between; */
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+    justify-self: center;
+    align-self: center;
+    list-style: none;
+    color: yellow;
+    font-size: 1.12rem;
+}
+
+nav ul li{
+    transition: all;
+    transition-duration: 500ms;
+}
+nav ul li:hover{
+    color: yellow;
+    font-size: 1.62rem;
+}
+.button{
+align-self: center;
+justify-self: center;
+}
+
+.button button{
+   width: 150%;
+   padding: 10px;
+   background-color: #f16464;
+   border-style: none;
+   color: #ffffff;
+   font-weight: bold;
+   font-size: 1rem;
+   transition: all;
+   transition-duration: 500ms;
+}
+
+.button button:hover{
+    background-color: #f5f560;
+    color: black;
+    cursor: pointer;
+ }
+
+nav ul li:hover{
+    cursor: pointer;
+}
+
+main{
+    justify-self: center;
+    /* place-self:center ; */
+    height: 50%;
+
+}
+footer{
+    justify-self: end  ;
+    margin-right: 30px;
+    /* width: 100%; */
+    height: 170px;
+    
+}
+section p{
+    font-size: 4rem;
+    font-weight: 1000;
+    text-align: center;
+    font-family: "Dela Gothic One", cursive;
+    color: yellow;
+}
+
+.mid-button{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.mid-button button{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 35%;
+    background-color: #f16464;    
+   border-style: none;   
+   color: #ffffff;
+   transition: all;
+   transition-duration: 700ms;
+}
+.mid-button button:hover{
+    background-color: #f5f560;
+    color: black;
+    cursor: pointer;
+
+}
